@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Measuring mirror-disk performance with FIO
+# Assuming mirror-disk mount point as /md, data-partition size more than 8GB
+
 waiting () {
 	while [ 1 ];do
 		sleep 2
